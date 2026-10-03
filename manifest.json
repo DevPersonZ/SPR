@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "Scratch Project Replacer",
+  "version": "1.0",
+  "description": "Replaces the running Scratch game with a custom .sb3 file in memory.",
+  "permissions": [
+    "activeTab",
+    "scripting"
+  ],
+  "host_permissions": [
+    "*://scratch.mit.edu/projects/*"
+  ],
+  "action": {
+    "default_popup": "popup.html"
+  }
+}
